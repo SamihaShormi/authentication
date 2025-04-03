@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+yarn.lock
+pnpm-lock.yaml
+
+# Build files
+dist/
+build/
+.cache/
+out/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Babel & TypeScript
+.babelrc
+tsconfig.json
+*.tsbuildinfo
+
+# Next.js & Nuxt.js
+.next/
+.nuxt/
+
+# Public uploads
+/public/uploads/
+uploads/
+
+# MongoDB database files
+/data/db/
+dump/
+
+# Coverage & Testing
+coverage/
+*.lcov
+jest/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Misc
+*.swp
+*.swo
